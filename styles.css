@@ -97,20 +97,15 @@ body {
     border-radius: 7px;
     font-weight: 700;
     transition: 0.3s ease;
-}
-
-.super__link a {
     text-decoration: none;
     color: inherit;
+    display: block;
 }
 
 .super__link:hover,
-.super__link:focus-within {
+.super__link:focus-visible {
     background-color: var(--Green);
     color: #000;
     cursor: pointer;
-}
-
-.super__link a:focus-within {
     outline: none;
 }
