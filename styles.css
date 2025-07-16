@@ -70,12 +70,13 @@ body {
 .super__image {
     width: 100px;
     border-radius: 100px;
+    margin-block-start: 1rem;
 }
 
 .super__author {
     margin: 1.5rem 0;
     line-height: 1.6;
-    font-size: 0.75rem;
+    font-size: 0.75rem;    
 }
 
 .super__location {
@@ -91,7 +92,7 @@ body {
 
 .super__link {
     background-color: var(--Grey-700);
-    margin: 1rem;
+    margin: 1rem 0.7rem;
     padding: 1em;
     border-radius: 7px;
     font-weight: 700;
