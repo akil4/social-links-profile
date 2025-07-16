@@ -56,3 +56,48 @@ body {
     min-height: 100vh;
     background-color: var(--Grey-900);
 }
+
+.super {
+    background-color: var(--Grey-800);
+    padding: 2em;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 375px;
+    text-align: center;
+}
+
+.super__image {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.super__author {
+    margin: 1.5rem 0;
+    line-height: 1.6;
+    font-size: 0.75rem;
+}
+
+.super__location {
+    color: var(--Green);
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+
+.super__description {
+    margin: 1.5rem 0;
+    font-weight: 600;
+}
+
+.super__link {
+    background-color: var(--Grey-700);
+    margin: 1rem;
+    padding: 1em;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.super__link a {
+    text-decoration: none;
+    color: inherit;
+}
