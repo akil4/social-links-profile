@@ -95,9 +95,16 @@ body {
     padding: 1em;
     border-radius: 7px;
     font-weight: 700;
+    transition: 0.3s ease;
 }
 
 .super__link a {
     text-decoration: none;
     color: inherit;
+}
+
+.super__link:hover {
+    background-color: var(--Green);
+    color: #000;
+    cursor: pointer;
 }
