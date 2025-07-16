@@ -104,8 +104,13 @@ body {
     color: inherit;
 }
 
-.super__link:hover {
+.super__link:hover,
+.super__link:focus-within {
     background-color: var(--Green);
     color: #000;
     cursor: pointer;
+}
+
+.super__link a:focus-within {
+    outline: none;
 }
